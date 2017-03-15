@@ -1,5 +1,5 @@
-# Welcome to Swastika Opensource Project
-Swastika is free, open source and cross-platform CMS based on ASP.NET Core. It is built using the best and the most modern tools and languages (Visual Studio 2017, C# etc). Be the best and join our team!
+# 卐 Swastika I/O - swas·ti·ka (/ˈswästəkə/)
+Swastika I/O is free, open source and cross-platform CMS based on ASP.NET Core. It is built using the best and the most modern tools and languages (Visual Studio 2017, C# etc). Be the best and join our team!
 
 ## Technology
 - ASP.NET Core 1.1
