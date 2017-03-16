@@ -8,3 +8,13 @@ D:\_Workspace\SW\Github\Swastika\Swastika\Swastika\obj\Debug\netcoreapp1.1\UserS
 D:\_Workspace\SW\Github\Swastika\Swastika\Swastika\obj\Debug\netcoreapp1.1\Swastika.AssemblyInfo.cs
 D:\_Workspace\SW\Github\Swastika\Swastika\Swastika\obj\Debug\netcoreapp1.1\Swastika.dll
 D:\_Workspace\SW\Github\Swastika\Swastika\Swastika\obj\Debug\netcoreapp1.1\Swastika.pdb
+D:\_Workspace\SW\Github\Swastika\Swastika\bin\Debug\netcoreapp1.1\Swastika.deps.json
+D:\_Workspace\SW\Github\Swastika\Swastika\bin\Debug\netcoreapp1.1\Swastika.runtimeconfig.json
+D:\_Workspace\SW\Github\Swastika\Swastika\bin\Debug\netcoreapp1.1\Swastika.runtimeconfig.dev.json
+D:\_Workspace\SW\Github\Swastika\Swastika\bin\Debug\netcoreapp1.1\Swastika.dll
+D:\_Workspace\SW\Github\Swastika\Swastika\bin\Debug\netcoreapp1.1\Swastika.pdb
+D:\_Workspace\SW\Github\Swastika\Swastika\obj\Debug\netcoreapp1.1\Swastika.csprojResolveAssemblyReference.cache
+D:\_Workspace\SW\Github\Swastika\Swastika\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+D:\_Workspace\SW\Github\Swastika\Swastika\obj\Debug\netcoreapp1.1\Swastika.AssemblyInfo.cs
+D:\_Workspace\SW\Github\Swastika\Swastika\obj\Debug\netcoreapp1.1\Swastika.dll
+D:\_Workspace\SW\Github\Swastika\Swastika\obj\Debug\netcoreapp1.1\Swastika.pdb

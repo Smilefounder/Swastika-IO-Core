@@ -1,0 +1,8 @@
+language: csharp
+solution: Swastika.sln
+
+matrix:
+  include:
+      mono: none
+      env: DOTNETCORE=1
+    - mono: latest
