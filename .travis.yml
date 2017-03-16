@@ -17,7 +17,7 @@ addons:
     - dotnet-dev-1.0.1
 
 before_script:
-  dotnet restore /Swastika/Swastika.csproj
+  dotnet restore ./Swastika/Swastika.csproj
 
 script:
-  dotnet build /Swastika/Swastika.csproj
+  dotnet build ./Swastika/Swastika.csproj
