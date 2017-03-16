@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# 卐 Swastika I/O - swas·ti·ka (/ˈswästəkə/)
+Swastika I/O is free, open source and cross-platform CMS based on ASP.NET Core. It is built using the best and the most modern tools and languages (Visual Studio 2017, C# etc). Be the best and join our team!
 
-You can use the [editor on GitHub](https://github.com/Swastika-IO/Swastika/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Technology
+- ASP.NET Core 1.1
+- MS SQL Server
+- C#
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Prerequisites
+- Visual Studio 2017
+- .NET Core 1.1 for Visual Studio
 
-### Markdown
+## How to run on local
+- Open the Swastika.sln solution in Visual Studio
+- Build the solution (default apps will be copied to the "Apps" folder)
+- Choose the data provider of your choice in the appsettings file and modify the default connection string accordingly if needed.
+- Run (F5 or Ctrl+F5)
+- Database and seed data will be created automatically the first time you run the application.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## How to contribute
+Please create issues to report bugs, suggest new functionalities, ask questions or just share your thoughts about the project. Our team will really appreciate your contribution, thanks!
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Swastika-IO/Swastika/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
