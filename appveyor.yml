@@ -3,7 +3,7 @@ configuration:
 - Debug
 - Release
 before_build:
-- ps: .\dotnet-install.ps1 -Version dotnet-dev-1.0.1
+- ps: .\dotnet-install.ps1 -Version 1.0.0-preview2-003121
 - dotnet restore
 build_script:
 - dotnet build -c %CONFIGURATION%
