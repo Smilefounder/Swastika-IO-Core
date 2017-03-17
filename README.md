@@ -1,4 +1,5 @@
 Appveyor: [![Appveyor Build Status](https://ci.appveyor.com/api/projects/status/dup0f5a09j58ud8s?svg=true)](https://ci.appveyor.com/project/Smilefounder/swastika-core)
+
 Travis: ![Travis Build Status](https://travis-ci.org/Swastika-IO/Swastika-Core.svg?branch=master)
 
 # 卐 Swastika I/O - swas·ti·ka (/ˈswästəkə/)
