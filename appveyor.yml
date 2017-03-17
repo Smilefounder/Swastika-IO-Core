@@ -1,0 +1,11 @@
+version: '1.0.{build}'
+configuration:
+- Debug
+- Release
+before_build:
+- ps: .\dotnet-install.ps1 -Version 1.0.1
+- dotnet restore
+build_script:
+- dotnet build -c %CONFIGURATION%
+test_script:
+- dotnet test -c %CONFIGURATION%
