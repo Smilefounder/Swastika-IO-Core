@@ -3,7 +3,7 @@ configuration:
 - Debug
 - Release
 before_build:
-- ps: .\dotnet-install.ps1 -Version 1.0.0-preview2-003131
+- ps: .\dotnet-install.ps1 -Version 1.0.0-preview2-003177
 - ps: choco install dotnetcore-sdk
 - dotnet restore Swastika\Swastika.csproj
 build_script:
