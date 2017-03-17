@@ -4,8 +4,8 @@ configuration:
 - Release
 before_build:
 - ps: .\dotnet-install.ps1 -Version 1.0.0-preview2-003121
-- dotnet restore ./Swastika/Swastika.csproj
+- dotnet restore .\Swastika\Swastika.csproj
 build_script:
-- dotnet build -c ./Swastika/Swastika.csproj
+- dotnet build -c .\Swastika\Swastika.csproj
 test_script:
-- dotnet test -c ./Swastika/Swastika.csproj
+- dotnet test -c .\Swastika\Swastika.csproj
