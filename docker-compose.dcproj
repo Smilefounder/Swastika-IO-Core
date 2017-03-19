@@ -3,7 +3,6 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>70e9f1c9-7911-4696-8653-33dbb3886f94</ProjectGuid>
     <DockerLaunchBrowser>True</DockerLaunchBrowser>
-    <DockerServiceUrl>http://localhost:{ServicePort}</DockerServiceUrl>
     <DockerServiceName>swastika</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
