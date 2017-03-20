@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Swastika.DAL
+namespace Swastika.Service
 {
     public class Class1
     {

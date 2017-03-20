@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Swastika.DAO
+namespace Swastika.Data
 {
     public class Class1
     {

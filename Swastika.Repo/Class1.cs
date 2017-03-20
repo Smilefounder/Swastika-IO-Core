@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Swastika.DTO
+namespace Swastika.Repo
 {
     public class Class1
     {
