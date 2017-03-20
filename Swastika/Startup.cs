@@ -17,8 +17,14 @@ namespace Swastika
 {
     public class Startup
     {
+        // JPC enable portable dev database
+        private string _contentRootPath = "";
+
         public Startup(IHostingEnvironment env)
         {
+            // JPC enable portable dev database
+            _contentRootPath = env.ContentRootPath;
+
             var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
@@ -39,6 +45,13 @@ namespace Swastika
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // JPC enable portable dev database
+            string conn = Configuration.GetConnectionString("DefaultConnection");
+            if (conn.Contains("%CONTENTROOTPATH%"))
+            {
+                conn = conn.Replace("%CONTENTROOTPATH%", _contentRootPath);
+            }
+
             // Add framework services.
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));

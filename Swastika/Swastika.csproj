@@ -63,5 +63,11 @@
     <ProjectReference Include="..\Swastika.Services.Interfaces\Swastika.Services.Interfaces.csproj" />
     <ProjectReference Include="..\Swastika.Services\Swastika.Services.csproj" />
   </ItemGroup>
+  
+  <ItemGroup>
+	  
+	  <Content Include="database\**\*" CopyToPublishDirectory="Always" CopyToOutputDirectory="Always" />
+	  <!-- CopyToPublishDirectory = { Always, PreserveNewest, Never } -->
+	</ItemGroup>
 
 </Project>
