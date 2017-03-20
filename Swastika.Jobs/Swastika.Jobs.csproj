@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Swastika.Domain.Interfaces\Swastika.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\Swastika.Domain.Settings\Swastika.Domain.Settings.csproj" />
+    <ProjectReference Include="..\Swastika.Infrastructure\Swastika.Infrastructure.csproj" />
+    <ProjectReference Include="..\Swastika.Services.Interfaces\Swastika.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
