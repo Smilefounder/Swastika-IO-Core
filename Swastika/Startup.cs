@@ -18,12 +18,14 @@ namespace Swastika
     public class Startup
     {
         // JPC enable portable dev database
-        private string _contentRootPath = "";
+        //private string _contentRootPath = "";
+        private string _webRootPath = "";
 
         public Startup(IHostingEnvironment env)
         {
             // JPC enable portable dev database
-            _contentRootPath = env.ContentRootPath;
+            //_contentRootPath = env.ContentRootPath; // This doesn't work on IIS env
+            _webRootPath = env.WebRootPath;
 
             var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
@@ -49,12 +51,12 @@ namespace Swastika
             string conn = Configuration.GetConnectionString("DefaultConnection");
             if (conn.Contains("%CONTENTROOTPATH%"))
             {
-                conn = conn.Replace("%CONTENTROOTPATH%", _contentRootPath);
+                conn = conn.Replace("%CONTENTROOTPATH%", _webRootPath);
             }
 
             // Add framework services.
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(conn));
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()

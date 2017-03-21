@@ -24,6 +24,12 @@
     <DefineConstants>TRACE;RELEASE;NETCOREAPP1_1</DefineConstants>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <FileAlignment>1024</FileAlignment>
+    <DebugType>full</DebugType>
+    <DebugSymbols>True</DebugSymbols>
+  </PropertyGroup>
+
   <ItemGroup>
     <None Remove="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Remove="Properties\PublishProfiles\CustomProfile1.pubxml" />
@@ -65,9 +71,20 @@
   </ItemGroup>
   
   <ItemGroup>
-	  
-	  <Content Include="database\**\*" CopyToPublishDirectory="Always" CopyToOutputDirectory="Always" />
-	  <!-- CopyToPublishDirectory = { Always, PreserveNewest, Never } -->
-	</ItemGroup>
+    <Content Include="wwwroot\Database\SwastikaDatabase.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\Database\SwastikaDatabase_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
 
 </Project>
