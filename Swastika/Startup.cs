@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using Swastika.Data;
 using Swastika.Models;
 using Swastika.Services;
+using Newtonsoft.Json.Serialization;
 
 namespace Swastika
 {
@@ -62,7 +63,14 @@ namespace Swastika
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
-            services.AddMvc();
+            services
+                .AddMvc()
+                .AddJsonOptions(options => options.SerializerSettings.ContractResolver =
+                    new DefaultContractResolver()); // Added for Signalr feature
+
+            // Add SignalR service
+            // Source: https://chsakell.com/2016/10/10/real-time-applications-using-asp-net-core-signalr-angular/
+            services.AddSignalR(options => options.Hubs.EnableDetailedErrors = true); 
 
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();
@@ -98,6 +106,9 @@ namespace Swastika
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            // Use SignalR service
+            app.UseSignalR();
         }
     }
 }
