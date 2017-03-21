@@ -71,11 +71,11 @@
   </ItemGroup>
   
   <ItemGroup>
-    <Content Include="wwwroot\Database\SwastikaDatabase.mdf">
+    <Content Include="wwwroot\database\SwastikaDatabase.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <CopyToPublishDirectory>Always</CopyToPublishDirectory>
     </Content>
-    <Content Include="wwwroot\Database\SwastikaDatabase_log.ldf">
+    <Content Include="wwwroot\database\SwastikaDatabase_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <CopyToPublishDirectory>Always</CopyToPublishDirectory>
     </Content>
