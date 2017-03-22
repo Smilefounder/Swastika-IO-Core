@@ -10,6 +10,8 @@ using Microsoft.Extensions.Options;
 using Swastika.Models;
 using Swastika.Models.ManageViewModels;
 using Swastika.Services;
+using Swastika.Services.Interfaces;
+using Swastika.Domain.Entities;
 
 namespace Swastika.Controllers
 {

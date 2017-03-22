@@ -10,4 +10,8 @@
     <ProjectReference Include="..\Swastika.Domain.Settings\Swastika.Domain.Settings.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
 </Project>
