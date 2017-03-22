@@ -72,7 +72,7 @@
     <ProjectReference Include="..\Swastika.Services\Swastika.Services.csproj" />
   </ItemGroup>
   
-  <ItemGroup>
+  <!--ItemGroup>
     <Content Include="wwwroot\database\SwastikaDatabase.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <CopyToPublishDirectory>Always</CopyToPublishDirectory>
@@ -81,7 +81,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <CopyToPublishDirectory>Always</CopyToPublishDirectory>
     </Content>
-  </ItemGroup>
+  </ItemGroup-->
   
   <ItemGroup>
     <EmbeddedResource Update="Properties\Resources.resx">
