@@ -15,6 +15,7 @@ using Swastika.Services;
 using Newtonsoft.Json.Serialization;
 using Swastika.Services.Interfaces;
 using Swastika.Domain.Entities;
+using Swastika.Models.TodoViewModels;
 
 namespace Swastika
 {
@@ -65,10 +66,16 @@ namespace Swastika
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
+            // TODO: requires using Microsoft.EntityFrameworkCore;
+            services.AddDbContext<TodoContext>(opt => opt.UseInMemoryDatabase());
+
             services
                 .AddMvc()
                 .AddJsonOptions(options => options.SerializerSettings.ContractResolver =
                     new DefaultContractResolver()); // Added for Signalr feature
+
+            // TODO: add todo api demo
+            services.AddSingleton<ITodoRepository, TodoRepository>();
 
             // Add SignalR service
             // Source: https://chsakell.com/2016/10/10/real-time-applications-using-asp-net-core-signalr-angular/
