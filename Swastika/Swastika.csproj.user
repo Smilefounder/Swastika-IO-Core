@@ -7,5 +7,6 @@
     <ActiveDebugProfile>Swastika</ActiveDebugProfile>
     <NameOfLastUsedPublishProfile>FolderProfile</NameOfLastUsedPublishProfile>
     <WebStackScaffolding_ControllerDialogWidth>600</WebStackScaffolding_ControllerDialogWidth>
+    <ShowAllFiles>false</ShowAllFiles>
   </PropertyGroup>
 </Project>
