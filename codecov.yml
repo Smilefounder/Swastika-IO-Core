@@ -1,5 +1,2 @@
 codecov:
-  archive:
-    destination: disk
-    directory: /archive
-    hash_key: "59ea0028-537b-4bba-b752-d239ed106f4e"
+  token: 59ea0028-537b-4bba-b752-d239ed106f4e
