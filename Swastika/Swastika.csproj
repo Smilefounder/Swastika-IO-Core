@@ -63,7 +63,6 @@
     <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Swastika.Domain.Entities\Swastika.Domain.Entities.csproj" />
     <ProjectReference Include="..\Swastika.Domain.Interfaces\Swastika.Domain.Interfaces.csproj" />
     <ProjectReference Include="..\Swastika.Domain.Settings\Swastika.Domain.Settings.csproj" />
     <ProjectReference Include="..\Swastika.Infrastructure.Web\Swastika.Infrastructure.Web.csproj" />

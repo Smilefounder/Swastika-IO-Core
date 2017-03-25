@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Swastika.Domain.Entities\Swastika.Domain.Entities.csproj" />
     <ProjectReference Include="..\Swastika.Domain.Interfaces\Swastika.Domain.Interfaces.csproj" />
   </ItemGroup>
 

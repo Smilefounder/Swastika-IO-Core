@@ -14,7 +14,6 @@ using Swastika.Models;
 using Swastika.Services;
 using Newtonsoft.Json.Serialization;
 using Swastika.Services.Interfaces;
-using Swastika.Domain.Entities;
 
 namespace Swastika
 {
@@ -75,8 +74,9 @@ namespace Swastika
             services.AddSignalR(options => options.Hubs.EnableDetailedErrors = true); 
 
             // Add application services.
-            services.AddTransient<IEmailSender, AuthMessageSender>();
-            services.AddTransient<ISmsSender, AuthMessageSender>();
+            // TODO: Reconfirm on the template
+            //services.AddTransient<IEmailSender, AuthMessageSender>();
+            //services.AddTransient<ISmsSender, AuthMessageSender>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -4,14 +4,4 @@
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Swastika.Domain.Entities\Swastika.Domain.Entities.csproj" />
-    <ProjectReference Include="..\Swastika.Domain.Interfaces\Swastika.Domain.Interfaces.csproj" />
-    <ProjectReference Include="..\Swastika.Domain.Settings\Swastika.Domain.Settings.csproj" />
-    <ProjectReference Include="..\Swastika.Infrastructure.Web\Swastika.Infrastructure.Web.csproj" />
-    <ProjectReference Include="..\Swastika.Infrastructure\Swastika.Infrastructure.csproj" />
-    <ProjectReference Include="..\Swastika.Jobs\Swastika.Jobs.csproj" />
-    <ProjectReference Include="..\Swastika.Services.Interfaces\Swastika.Services.Interfaces.csproj" />
-  </ItemGroup>
-
 </Project>
