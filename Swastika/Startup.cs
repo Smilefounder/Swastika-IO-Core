@@ -22,7 +22,10 @@ namespace Swastika
         // JPC enable portable dev database
         //private string _contentRootPath = "";
         private string _webRootPath = "";
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="env"></param>
         public Startup(IHostingEnvironment env)
         {
             // JPC enable portable dev database

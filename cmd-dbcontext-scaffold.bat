@@ -23,6 +23,6 @@ REM   -v|--verbose                           Show verbose output.
 REM   --no-color                             Don't colorize output.
 REM   --prefix-output                        Prefix output with level.
 cd Swastika
-dotnet ef dbcontext scaffold "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\_Workspace\SW\Github\Swastika\Swastika\wwwroot\database\SwastikaDatabase.mdf;Integrated Security=True;Connect Timeout=30"  Microsoft.EntityFrameworkCore.SqlServer --context SwastikaDbContext --force --output-dir ../Swastika.Domain.Entities/_tmp --json
+dotnet ef dbcontext scaffold "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Workspace\_Github\Swastika\Swastika\wwwroot\database\SwastikaDatabase.mdf;Integrated Security=True;Connect Timeout=30"  Microsoft.EntityFrameworkCore.SqlServer --context SwastikaDbContext --force --output-dir ../Swastika.Domain.EF.SqlServer/_tmp --json
 
 pause
