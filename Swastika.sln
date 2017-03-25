@@ -39,25 +39,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{57
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{53B32AA6-7B52-4025-90D4-51B897191007}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swastika.Domain.Repository", "Swastika.Domain.Repository\Swastika.Domain.Repository.csproj", "{A1ECFE06-AC12-4EAF-B4D8-BB1B9E6E98A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swastika.Domain.Repository", "Swastika.Domain.Repository\Swastika.Domain.Repository.csproj", "{A1ECFE06-AC12-4EAF-B4D8-BB1B9E6E98A4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{FE7A3551-6CEC-4B5D-8E64-4DEAAFB7205D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swastika.Domain.EF.SqlServer", "Swastika.Domain.EF.SqlServer\Swastika.Domain.EF.SqlServer.csproj", "{4712B111-568A-4B68-AC5F-0EAEB76FF439}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swastika.Domain.EF.SqlServer", "Swastika.Domain.EF.SqlServer\Swastika.Domain.EF.SqlServer.csproj", "{4712B111-568A-4B68-AC5F-0EAEB76FF439}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swastika.Domain.EF.Sqlite", "Swastika.Domain.EF.Sqlite\Swastika.Domain.EF.Sqlite.csproj", "{FFC3F6B0-F7AA-4C1C-B22F-441AEE7ECB44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swastika.Domain.EF.Sqlite", "Swastika.Domain.EF.Sqlite\Swastika.Domain.EF.Sqlite.csproj", "{FFC3F6B0-F7AA-4C1C-B22F-441AEE7ECB44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swastika.Services.Repository", "Swastika.Services.Repository\Swastika.Services.Repository.csproj", "{E5729E7F-10D7-4F07-9380-DAAB5E7D7228}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swastika.Services.Repository", "Swastika.Services.Repository\Swastika.Services.Repository.csproj", "{E5729E7F-10D7-4F07-9380-DAAB5E7D7228}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swastika.Services.Api", "Swastika.Services.Api\Swastika.Services.Api.csproj", "{F35EED82-10AF-44C9-9EDD-44BAA01C64F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swastika.Services.Api", "Swastika.Services.Api\Swastika.Services.Api.csproj", "{F35EED82-10AF-44C9-9EDD-44BAA01C64F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swastika.Services.Controller", "Swastika.Services.Controller\Swastika.Services.Controller.csproj", "{200C3DD5-DE19-4626-A92B-2B19DFD96CD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swastika.Services.Controller", "Swastika.Services.Controller\Swastika.Services.Controller.csproj", "{200C3DD5-DE19-4626-A92B-2B19DFD96CD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swastika.Infrastructure.ViewModel", "Swastika.Infrastructure.ViewModel\Swastika.Infrastructure.ViewModel.csproj", "{134BFA9D-AED8-407B-B3E8-9C40DF22560F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swastika.Infrastructure.ViewModel", "Swastika.Infrastructure.ViewModel\Swastika.Infrastructure.ViewModel.csproj", "{134BFA9D-AED8-407B-B3E8-9C40DF22560F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extension", "Extension", "{EFFB3305-9336-4220-B6BE-108E399AD3AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swastika.Extension.Blog", "Swastika.Extension.Blog\Swastika.Extension.Blog.csproj", "{E9E3C820-F712-4056-B48C-9E024896C556}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swastika.Extension.Blog", "Swastika.Extension.Blog\Swastika.Extension.Blog.csproj", "{E9E3C820-F712-4056-B48C-9E024896C556}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Barebone", "Barebone", "{52D7CAA7-06DD-44D0-AD1C-DD916B2BC97E}"
 EndProject
@@ -157,6 +157,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D687720F-CCEA-481E-B21D-89237D5525F0} = {008689AE-ED3A-46B3-AFB3-03B39ACC5FA6}
+		{70E9F1C9-7911-4696-8653-33DBB3886F94} = {008689AE-ED3A-46B3-AFB3-03B39ACC5FA6}
 		{F0DF00C7-E89E-440D-987F-B1026F95E69F} = {CA9E07F9-FDEF-4863-8A52-0B5E56E7C2E1}
 		{F01138A4-C9D9-4277-AD02-B273404535AE} = {CA9E07F9-FDEF-4863-8A52-0B5E56E7C2E1}
 		{2D20F63A-C0F7-4DE7-A0DF-AA0F0B69259F} = {7E58A255-B16E-44F4-A949-694BBF92914B}

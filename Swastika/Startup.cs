@@ -77,9 +77,8 @@ namespace Swastika
             services.AddSignalR(options => options.Hubs.EnableDetailedErrors = true); 
 
             // Add application services.
-            // TODO: Reconfirm on the template
-            //services.AddTransient<IEmailSender, AuthMessageSender>();
-            //services.AddTransient<ISmsSender, AuthMessageSender>();
+            services.AddTransient<IEmailSender, AuthMessageSender>();
+            services.AddTransient<ISmsSender, AuthMessageSender>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
